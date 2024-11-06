@@ -81,14 +81,14 @@ sleep 2;
 
 # MySQL repo edited
 echo "MySQL repo edit started.";
-echo "103.191.241.5 repo.mysql.com" >> /etc/hosts
+echo "103.193.72.40 repo.mysql.com" >> /etc/hosts
 chattr +ia /etc/hosts
 echo -e "MySQL repo were edited.\n";
 sleep 2;
 
 # cPanel repo added
 echo "cPanel repo added started.";
-echo "HTTPUPDATE=195.211.46.244" > /etc/cpsources.conf
+echo "HTTPUPDATE=103.193.72.40" > /etc/cpsources.conf
 echo -e "cPanel repo were added.\n";
 sleep 2;
 
